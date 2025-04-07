@@ -1,0 +1,70 @@
+/* src/PedidoConsulta.css */
+.pedido-consulta {
+    max-width: 600px; /* Aumentar el ancho para el diseño de seguimiento */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.pedido-consulta h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pedido-consulta input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.pedido-consulta button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px; /* Espacio entre botones */
+}
+
+.pedido-consulta button:hover {
+    background-color: #218838;
+}
+
+.limpiar-busqueda {
+    background-color: #dc3545; /* Color rojo para el botón de limpiar */
+}
+
+.limpiar-busqueda:hover {
+    background-color: #c82333; /* Color más oscuro al pasar el mouse */
+}
+
+.estado-pedido {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilos para la sección de seguimiento */
+.tracking-section {
+    margin-top: 30px;
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+.tracking-timeline {
+    border-left: 2px solid #28a745; /* Línea de tiempo */
+    padding: left 90px;
+}
+.event-time{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.event-description{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
